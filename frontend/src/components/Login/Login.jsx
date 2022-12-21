@@ -9,10 +9,12 @@ const Login = () => {
         </div>
         <div className='pt-[220px] flex flex-col p-[100px]'>
             <h3 className='text-[40px] text-[#213F7D] font-bold leading-[55px]'>Welcome!</h3>
-            <h6 className='mt-[10px]'>Enter details to login.</h6>
-            <form action="" className='mt-[60px] flex flex-col gap-[24px]'>
-              <input type="email" placeholder='Email' className='p-[17px] border-2 border-[rgba(84,95,125, 0.15)] mr-[57px]' />
-              <input type="password" placeholder='placeholder' className='p-[17px] border-2 border-[rgba(84,95,125, 0.15)] mr-[57px]'/>
+            <h6 className='mt-[10px] text-[20px] font-extralight'>Enter details to login.</h6>
+            <form action="" className='mt-[60px] flex flex-col gap-[24px] mr-[57px]'>
+              <input type="email" placeholder='Email' className='p-[17px] text-[#545F7D] rounded-[5px] text-[14px] border-2 border-[rgba(84,95,125, 0.15)] ' />
+              <input type="password" placeholder='Password' className='p-[17px] text-[#545F7D] rounded-[5px] text-[14px] border-2 border-[rgba(84,95,125, 0.15)]'/>
+              <p className='text-[12px] text-[#39CDCC] font-semibold uppercase'>Forgotten Password ?</p>
+              <button className='uppercase text-[14px] p-[15px] rounded-[8px] bg-[#39CDCC] text-white'>log in</button>
             </form>
         </div>
     </section>
