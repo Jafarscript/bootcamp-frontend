@@ -31,6 +31,7 @@ const Login = ({setUser}) => {
     e.preventDefault()
     if(email.includes('@') && password.length > 8){
       setUser(true)
+      sessionStorage.setItem("inputValue", true)
     }
   }
   return (
